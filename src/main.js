@@ -2,15 +2,16 @@ import Vue from 'vue';
 import VueRouter from 'vue-router';
 import $ from 'jquery';
 import routes from './router';
-import store from './store';
-import common from './component/'; //加载公共组件
-import Mint from 'mint-ui';
-import 'mint-ui/lib/style.css';
-for (let key in common) {
-    console.log('key:'+key);
-    Vue.component(key, common[key]);
-}
-Vue.use(Mint);
+import store from './store/index';
+import ElementUI from 'element-ui'
+import 'element-ui/lib/theme-default/index.css'
+
+// import common from './component/'; //加载公共组件
+// for (let key in common) {
+//     console.log('key:'+key);
+//     Vue.component(key, common[key]);
+// }
+Vue.use(ElementUI);
 Vue.use(VueRouter);
 
 const router = new VueRouter({

@@ -59,23 +59,3 @@ var moduleXYZ = require('moduleXYZ');
 
 ```
 You can find all loaders in this [list](http://webpack.github.io/docs/list-of-loaders.html).
-
-
-//接口没问题 撸起！！！
-###Requirements
-* node
-* npm
-* webpack
-* vue
-2017.2.5
-接口调通，新增若干功能页面。
-下一步优化UI，添加微信接口，编写vue 组件
-2017.2.7
-绑卡界面 弹框等完成
-科室信息列别表完成
-2017.2.9
-医生值班组件
-个人信息组件
-常用就诊人组件 完成
-2017.2.17
-添加多个组件

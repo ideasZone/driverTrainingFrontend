@@ -1,8 +1,8 @@
 {
-  "name": "stock-vote",
+  "name": "driverTest",
   "version": "1.0.0",
-  "description": "stock vote ",
-  "author": "maqinghua@gf.com.cn",
+  "description": "driverTest",
+  "author": "JoeSmile",
   "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",
@@ -10,8 +10,8 @@
     "lint": "eslint --ext .js,.vue src"
   },
   "dependencies": {
+    "element-ui": "^1.2.2",
     "jquery": "^3.1.1",
-    "mint-ui": "^2.1.0",
     "underscore": "^1.8.3",
     "vue": "^2.1.4",
     "vue-router": "^2.0.1",
